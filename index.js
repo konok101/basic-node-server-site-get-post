@@ -19,6 +19,7 @@ const users = [
     { id: 5, name: 'Sabana5', email: 'sabana@gmail.com' },
 ]
 
+//filter by search query or query parameter 
 app.get('/users', (req, res) => {
     console.log('query', req.query);
     if (req.query.name) {
