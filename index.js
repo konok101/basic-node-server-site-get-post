@@ -31,7 +31,7 @@ app.get('/user/:id', (req, res) => {
 
 });
 
-/* input user to post */
+/* input user to post part----------------------- */
 app.post('/user', (req, res) => {
     console.log('request', req.body);
     const user = req.body;
